@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAppSandbox", "sandbox\BlazorWebAppSandbox\BlazorWebAppSandbox\BlazorWebAppSandbox.csproj", "{03FBC521-6AA8-4919-A7F4-CDDFEA729242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAppSandbox.Client", "sandbox\BlazorWebAppSandbox\BlazorWebAppSandbox.Client\BlazorWebAppSandbox.Client.csproj", "{679F6F13-6632-4D6F-A563-25BCC6B268F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorTracker.Application", "source\SensorTracker.Application\SensorTracker.Application.csproj", "{C898338C-A5B0-0F8D-9719-DDB96697E7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorTracker.Core", "source\SensorTracker.Core\SensorTracker.Core.csproj", "{B6A4DF65-6BB8-5A6A-983E-F574CD3356BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorTracker.Infrastructure", "source\SensorTracker.Infrastructure\SensorTracker.Infrastructure.csproj", "{54BFDEAF-200D-D107-014B-3A3BB6D0812E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorTracker.WebUI", "source\SensorTracker.WebUI\SensorTracker.WebUI\SensorTracker.WebUI.csproj", "{E2E1DFA0-4359-4EBC-8CF1-70B44561DDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorTracker.WebUI.Client", "source\SensorTracker.WebUI\SensorTracker.WebUI.Client\SensorTracker.WebUI.Client.csproj", "{B070A0AC-645C-41A5-9CE2-30914E9037C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03FBC521-6AA8-4919-A7F4-CDDFEA729242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FBC521-6AA8-4919-A7F4-CDDFEA729242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FBC521-6AA8-4919-A7F4-CDDFEA729242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FBC521-6AA8-4919-A7F4-CDDFEA729242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679F6F13-6632-4D6F-A563-25BCC6B268F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679F6F13-6632-4D6F-A563-25BCC6B268F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679F6F13-6632-4D6F-A563-25BCC6B268F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679F6F13-6632-4D6F-A563-25BCC6B268F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C898338C-A5B0-0F8D-9719-DDB96697E7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C898338C-A5B0-0F8D-9719-DDB96697E7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C898338C-A5B0-0F8D-9719-DDB96697E7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C898338C-A5B0-0F8D-9719-DDB96697E7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A4DF65-6BB8-5A6A-983E-F574CD3356BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A4DF65-6BB8-5A6A-983E-F574CD3356BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A4DF65-6BB8-5A6A-983E-F574CD3356BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A4DF65-6BB8-5A6A-983E-F574CD3356BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BFDEAF-200D-D107-014B-3A3BB6D0812E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BFDEAF-200D-D107-014B-3A3BB6D0812E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BFDEAF-200D-D107-014B-3A3BB6D0812E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BFDEAF-200D-D107-014B-3A3BB6D0812E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E1DFA0-4359-4EBC-8CF1-70B44561DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E1DFA0-4359-4EBC-8CF1-70B44561DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E1DFA0-4359-4EBC-8CF1-70B44561DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E1DFA0-4359-4EBC-8CF1-70B44561DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B070A0AC-645C-41A5-9CE2-30914E9037C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B070A0AC-645C-41A5-9CE2-30914E9037C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B070A0AC-645C-41A5-9CE2-30914E9037C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B070A0AC-645C-41A5-9CE2-30914E9037C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181AAF8F-0FA5-4B27-85BC-45CB5AE75A24}
+	EndGlobalSection
+EndGlobal
